@@ -16,16 +16,13 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
     @IBAction func onSubmitButton(_ sender: Any) {
         let post = PFObject(className: "Posts")
         post["caption"] = commentField.text!
         post["author"] = PFUser.current()!
-        let imageData = imageView.image!.pngData()
+        let imageData = imageView.image!.pngData()!
         let file = PFFileObject(data: imageData)
         post["image"] = file
         post.saveInBackground { (success, error) in
@@ -37,6 +34,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
             }
         }
     }
+    
     @IBAction func onCameraButton(_ sender: Any) {
         let picker = UIImagePickerController()
         picker.delegate = self
