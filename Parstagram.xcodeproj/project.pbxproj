@@ -17,6 +17,7 @@
 		836ECC8C23FFAB5300514049 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836ECC8B23FFAB5300514049 /* FeedViewController.swift */; };
 		836ECC8E23FFBE1B00514049 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836ECC8D23FFBE1B00514049 /* CameraViewController.swift */; };
 		83B22F95240392C30041FE20 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B22F94240392C30041FE20 /* PostCell.swift */; };
+		83E9EF902404EF360071BF43 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E9EF8F2404EF360071BF43 /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		836ECC8B23FFAB5300514049 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		836ECC8D23FFBE1B00514049 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		83B22F94240392C30041FE20 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		83E9EF8F2404EF360071BF43 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		C9AAC3BA0E89BBAE83F42328 /* Pods_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 				836ECC8B23FFAB5300514049 /* FeedViewController.swift */,
 				836ECC8D23FFBE1B00514049 /* CameraViewController.swift */,
 				83B22F94240392C30041FE20 /* PostCell.swift */,
+				83E9EF8F2404EF360071BF43 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				836ECC8C23FFAB5300514049 /* FeedViewController.swift in Sources */,
 				832C42B823FB421E00D4A32A /* SceneDelegate.swift in Sources */,
 				83B22F95240392C30041FE20 /* PostCell.swift in Sources */,
+				83E9EF902404EF360071BF43 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

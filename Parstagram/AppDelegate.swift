@@ -11,9 +11,7 @@ import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         Parse.initialize(
@@ -23,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 //parse-dashboard --appId parstagram1 --masterKey 0602 --serverURL "https://sleepy-oasis-72662.herokuapp.com/parse"
             })
         )
+        
         return true
     }
 
